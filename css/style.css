@@ -1,0 +1,61 @@
+/* 
+* @Author: Mather
+* @Date:   2015-02-16 20:05:47
+* @Last Modified by:   anchen
+* @Last Modified time: 2015-08-26 11:24:08
+*/
+
+.jumbotron {
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.panel-body > p > a:link,
+.panel-body > p > a:hover,
+.panel-body > p > a:focus,
+.panel-body > p > a{
+    text-decoration: none;
+    color: #0089FF;   
+}
+
+.content p {
+    text-align: left;
+}
+
+body,
+.content h3,
+.panel-body p,
+.media-body > h4,
+.media-body > p,
+.media-body,
+.footer,
+.jumbotron{
+    font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";
+}
+
+.media {
+    padding: 10px 0;
+}
+
+.media-body,
+.panel-body p{
+    line-height: 1.8;
+}
+
+.media-object {
+    margin-left: 0px;
+    margin-right: 10px; 
+    border: 1px solid #777; 
+    box-shadow: 0px 0px 1px 1px #999;
+    border-radius: 7px;
+}
+
+.footer {
+    padding: 1px 0;
+    background: #EEE;
+    border-radius: 5px 5px 0px 0px;
+    text-align: center;
+    
+}
+
